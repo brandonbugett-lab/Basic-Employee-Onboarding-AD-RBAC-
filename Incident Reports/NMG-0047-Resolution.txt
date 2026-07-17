@@ -1,0 +1,6 @@
+Issue reported: Unable to access HR shared resources. Desktop policies and mapped drives from teammates.
+Root cause: Jane was not able to get access on the HR OU. The other problem that occurred was her account was assigned for the operations OU when it should have been for the HR OU.
+The change I made was moving Jane to the proper OU so she could get access controls for her account.
+Verification: After making the change I slowly moved over to the HR OU to see if she was moved over to the correct OU.
+Date Solved: 07/15/2026
+Resolved by: IT New Hire
